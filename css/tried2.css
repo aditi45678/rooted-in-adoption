@@ -1,0 +1,100 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	max-width: 100%;
+	max-height:100%;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 100%;
+	overflow:hidden;
+}
+.inner{
+	max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    height: 145px;
+    overflow: hidden;
+	width:100%;
+}
+.logo{
+	max-width:360px;
+	width:100%;
+}
+img.img-logo{
+	max-width: 180px;
+    margin: 0;
+    padding: 20px 0px 30px 20px;
+    width: 80%;
+}
+.nav-menu{
+	max-width:1200px;
+	width:100%;
+}
+.nav-menu ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.nav-menu ul li{
+	margin:0 55px 0 0;
+}
+.nav-menu  li {
+	 border-top: 2px solid transparent;
+}
+.nav-menu li:hover{
+	border-top-color:#96ab5c;
+}
+.nav-menu li.active{
+	border-top-color:#96ab5c;
+}
+.nav-menu a{
+	text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2a2b33;
+    font-weight: 700;
+    font-family: "Manrope";
+	line-height:8;
+}
+.nav-menu li.fb-menu:hover{
+	border-top-color:#364f7a;
+}
+a.fb-menu:hover{
+	color:#064f7a;
+	transition:0.3 ease;
+font-weight:500;
+}
+.btn{
+	max-width:360px;
+	width:100%;
+	padding:62px 0 0 0 ;
+}
+a.btn-schedule{
+	padding: 20px 30px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Manrope";
+    height: 64px;
+    background-color:#364f7a ;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 1px solid;
+	border-radius: 2px;
+}
+a.btn-schedule:hover{
+	background-color:transparent;
+	color:#364f7a;
+}
+.details span{
+	font-size: 18px;
+line-height: 58px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Manrope";
+text-align: center;
+}
