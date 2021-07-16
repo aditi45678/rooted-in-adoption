@@ -1333,6 +1333,11 @@ img.icon-submit{
 	filter: drop-shadow(5px 15px 1px #064f7aeb);
 opacity: 0.4;
 }
+img.img-logo:hover{
+    filter: drop-shadow(5px 15px 1px #064f7aeb);
+opacity: 0.4;
+transition:0.3s ease;
+}
 .footer-logo a{
 	transition:0.3s ease;
 }
